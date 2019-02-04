@@ -33,12 +33,17 @@
 
   <!-- Bootstrap -->
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
   <!-- Switcher -->
   <link rel="stylesheet" type="text/css" href="static/style.css" title="default" />
   <link rel="alternate stylesheet" type="text/css" href="static/style-dark.css" title="alternate" />
+
+  <!-- Font awesome -->
+  <script src="https://use.fontawesome.com/d46ec8e634.js"></script>
 
 
 </head>
@@ -69,12 +74,10 @@
       <div class="about" align="center">
         <!-- Style switcher -->
         <div>
-          <i id="lightStyle" onclick="setActiveStyleSheet('default'); return false;" class="fa fa-sun-o fa-2x"
-            aria-hidden="true"></i>
+          <i id="lightStyle" onclick="setActiveStyleSheet('default'); return false;" class="fa fa-sun-o fa-2x" aria-hidden="true"></i>
         </div>
         <div>
-          <i id="darkStyle" onclick="setActiveStyleSheet('alternate'); return false;" class="fa fa-moon-o fa-2x blue"
-            aria-hidden="true"></i>
+          <i id="darkStyle" onclick="setActiveStyleSheet('alternate'); return false;" class="fa fa-moon-o fa-2x blue" aria-hidden="true"></i>
         </div>
         <!-- *** -->
         <h2 class="jobTitle">Software developer</h2>
@@ -85,7 +88,7 @@
         <div class="experience links">
           <div data-toggle="collapse" data-target="#experienceCollapse">
             <h3>
-              <a href="#">experience {</a>
+              <a href="#"><i class="fa fa-plus-square-o animated fadeIn "></i> experience {</a>
             </h3>
             <p> A short listing of some my previous positions ...</p>
             <div id="experienceCollapse" class="collapse">
@@ -137,15 +140,14 @@
         <div class="projects links">
           <div data-toggle="collapse" data-target="#doneCollapse">
             <h3>
-              <a href="#">projects {</a>
+              <a href="#"><i class="fa fa-plus-square-o animated fadeIn "></i> projects {</a>
             </h3>
             <p> Previous projects I have worked on ...</p>
             <div id="doneCollapse" class="collapse">
               <div>
                 <p class="jobTitle"># TeamworkToDo, Task manager</p>
                 <p class="jobDate">## June, 2018</p>
-                <p class="jobDesc">A one-page, task manager client application which utilises the <a href="https://developer.teamwork.com"
-                    target="_blank" rel="noopener">TeamWork.com projects API</a>.
+                <p class="jobDesc">A one-page, task manager client application which utilises the <a href="https://developer.teamwork.com" target="_blank" rel="noopener">TeamWork.com projects API</a>.
                   <br><strong>Technologies:</strong>
                   <br>- HTML &amp; CSS
                   <br>- JavaScript
@@ -234,7 +236,7 @@
         <div class="education links">
           <div data-toggle="collapse" data-target="#learnCollapse">
             <h3>
-              <a href="#">education {</a>
+              <a href="#"><i class="fa fa-plus-square-o animated fadeIn "></i> education {</a>
             </h3>
             <p> Things I&apos;ve learned along the way ...</p>
             <div id="learnCollapse" class="collapse">
@@ -242,7 +244,7 @@
                 <p class="jobTitle"># Code Institute - Full stack, Software development.</p>
                 <p class="jobDate">## January 2018 =&gt; present</p>
                 <p class="jobDesc">- Front end development with HTML, CSS and JavaScript.
-- Back end technologies and server-side scripting with Python.
+                  - Back end technologies and server-side scripting with Python.
                   - Relational and NoSQL databases along with Flask and Django full stack frameworks.</p>
                 <hr>
               </div>
@@ -250,7 +252,7 @@
                 <p class="jobTitle"># NUI Galway - B.Sc. Computer Science</p>
                 <p class="jobDate">## 2015 =&gt; 2017</p>
                 <p class="jobDesc">Currently on approved leave of absence to pursue further educational goals in Full
-Stack software engineering as detailed above.</p>
+                  Stack software engineering as detailed above.</p>
                 <hr>
               </div>
               <div>
@@ -266,7 +268,7 @@ Stack software engineering as detailed above.</p>
         <div class="posts links">
           <div data-toggle="collapse" data-target="#postsCollapse">
             <h3>
-              <a href="#">posts {</a>
+              <a href="#"><i class="fa fa-plus-square-o animated fadeIn "></i> posts {</a>
             </h3>
             <p> Some articles/posts I have published ...</p>
             <div id="postsCollapse" class="collapse">
@@ -274,8 +276,7 @@ Stack software engineering as detailed above.</p>
                 <p class="jobTitle"># &quot;Git&#x200A;&#x2014;&#x200A;commands you need to git going!&quot;</p>
                 <p class="jobDate">## 2018</p>
                 <p class="jobDesc">An article covering the basics of GIT workflow for developers.
-                  <br> <a href="https://medium.com/@davedodea/git-commands-you-need-to-git-going-b98adc42182e" target="_blank"
-                    rel="noopener">Read
+                  <br> <a href="https://medium.com/@davedodea/git-commands-you-need-to-git-going-b98adc42182e" target="_blank" rel="noopener">Read
                     =&gt;</a>
                   <hr>
                 </p>
@@ -285,8 +286,7 @@ Stack software engineering as detailed above.</p>
                 <p class="jobDate">## 2018</p>
                 <p class="jobDesc">This post is intended to help those learning Python. It will help you
                   deploy your new app to the web so you can test and share it with others.
-                  <br> <a href="https://medium.com/@davedodea/how-to-deploy-a-python-app-to-heroku-12289912f29c" target="_blank"
-                    rel="noopener">Read
+                  <br> <a href="https://medium.com/@davedodea/how-to-deploy-a-python-app-to-heroku-12289912f29c" target="_blank" rel="noopener">Read
 
                     =&gt;</a>
                   <hr>
@@ -296,8 +296,7 @@ Stack software engineering as detailed above.</p>
                 <p class="jobTitle"># &quot;Create, setup and deploy to your own cloud web server.&quot;</p>
                 <p class="jobDate">## 2017</p>
                 <p class="jobDesc">A multi-part guide to hosting a web server/vps.
-                  <br> <a href="https://medium.com/@davedodea/create-setup-and-deploy-your-own-cloud-web-server-60a2ce465d02"
-                    target="_blank" rel="noopener">Read =&gt;</a>
+                  <br> <a href="https://medium.com/@davedodea/create-setup-and-deploy-your-own-cloud-web-server-60a2ce465d02" target="_blank" rel="noopener">Read =&gt;</a>
                   <hr>
                 </p>
               </div>
@@ -307,8 +306,7 @@ Stack software engineering as detailed above.</p>
                 <p class="jobDesc">As a mature student, I recently returned to University to study CS and
                   also started learning to code online. All after deciding to leave my previous
                   career and make a serious change.
-                  <br> <a href="https://medium.com/kitchen-to-keyboard/i-want-to-be-a-developer-and-i-want-to-build-something-amazing-why-714b5bcad7a8"
-                    target="_blank" rel="noopener">Read =&gt;</a>
+                  <br> <a href="https://medium.com/kitchen-to-keyboard/i-want-to-be-a-developer-and-i-want-to-build-something-amazing-why-714b5bcad7a8" target="_blank" rel="noopener">Read =&gt;</a>
                 </p>
               </div>
             </div>
@@ -330,14 +328,11 @@ Stack software engineering as detailed above.</p>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous" defer></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous" defer></script>
   <!-- Hide JS -->
   <script src="static/hide.js" defer></script>
   <!-- Switcher -->
   <script type="text/javascript" src="static/styleswitcher.js"></script>
-  <!-- Font awesome -->
-  <script src="https://use.fontawesome.com/d46ec8e634.js"></script>
   <!-- Service worker -->
   <script src="upup.min.js"></script>
   <script>
