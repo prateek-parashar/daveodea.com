@@ -3,9 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Kosugi+Maru');
 
 #styleButtons {
-    position: absolute;
-    bottom: 0px;
-    right: 0px; 
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
 
 /* .blue{
@@ -13,215 +13,212 @@
 } */
 
 body {
-    color: #CACACC;
-    /* font-family: 'Inconsolata', monospace; */
-    font-family: 'Kosugi Maru', sans-serif;
-    font-size: .8em;
-    background-color: rgb(40, 42, 54);
-
+  color: #cacacc;
+  /* font-family: 'Inconsolata', monospace; */
+  font-family: 'Kosugi Maru', sans-serif;
+  font-size: 1.1em;
+  background-color: rgb(40, 42, 54);
 }
 
 p {
-    font-size: 18px;
-    font-family: 'Inconsolata', monospace;
+  font-size: 22px;
+  font-family: 'Inconsolata', monospace;
 }
 
 .closingP {
-    color:  rgb(32, 82, 119);
-    font-weight: 200;
-    font-size: 22px;
-    padding-bottom: 20px
+  color: rgb(32, 82, 119);
+  font-weight: 200;
+  font-size: 2px;
+  padding-bottom: 20px;
 }
 
 .sections {
-    padding: 50px 50px 0px 0px;
+  padding: 50px 50px 0px 0px;
 }
 
 .sections p {
-    font-size: 18px;
+  font-size: 22px;
 }
 
-
-
 .container-fluid {
-    background-color: #282a36;
-    min-height: 99vh;
-    max-height: 100vh;
-    display: flex;
-    margin-top: 5vh;
+  background-color: #282a36;
+  min-height: 99vh;
+  max-height: 100vh;
+  display: flex;
+  margin-top: 5vh;
 }
 
 h1 {
-    color: rgb(206, 209, 221);
-    font-family: 'Inconsolata', monospace;
-    font-weight: 300;
+  color: rgb(206, 209, 221);
+  font-family: 'Inconsolata', monospace;
+  font-weight: 300;
 }
 
 h2 {
-    color: rgb(112, 114, 121);
-    font-family: 'Inconsolata', monospace;
-    font-weight: 400;
-    font-size: 25px;
-    margin-top: -5px;
+  color: rgb(112, 114, 121);
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  font-size: 27px;
+  margin-top: -5px;
 }
 
 h3 {
-    color: rgb(112, 114, 121);
-    font-family: 'Inconsolata', monospace;
-    font-weight: 200;
-    font-size: 20px;
-    margin-top: -5px;
+  color: rgb(112, 114, 121);
+  font-family: 'Inconsolata', monospace;
+  font-weight: 200;
+  font-size: 22px;
+  margin-top: -5px;
 }
 
 .links {
-    margin: 0 0 1.5em 0;
+  margin: 0 0 1.5em 0;
 }
 
 .links a {
-    margin: auto 1em auto 0;
-    font-size: 18px;
-    /* color: rgb(197, 202, 204); */
-    font-family: 'Inconsolata', monospace;
-    text-decoration: none;
+  margin: auto 1em auto 0;
+  font-size: 20px;
+  /* color: rgb(197, 202, 204); */
+  font-family: 'Inconsolata', monospace;
+  text-decoration: none;
 }
 
 .about {
-    padding-bottom: 10px;
-    padding-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .about a {
-    color: orange;
+  color: orange;
 }
 
 .about p {
-    font-size: 18px;
+  font-size: 20px;
 }
 
 /* collapse */
 
 .panel-heading .accordion-toggle:after {
-    /* symbol for "opening" panels */
-    font-family: 'Glyphicons Halflings';
-    /* essential for enabling glyphicon */
-    content: "\e114";
-    /* adjust as needed, taken from bootstrap.css */
-    float: right;
-    /* adjust as needed */
-    color: grey;
-    /* adjust as needed */
-    background-color: transparent;
+  /* symbol for "opening" panels */
+  font-family: 'Glyphicons Halflings';
+  /* essential for enabling glyphicon */
+  content: '\e114';
+  /* adjust as needed, taken from bootstrap.css */
+  float: right;
+  /* adjust as needed */
+  color: grey;
+  /* adjust as needed */
+  background-color: transparent;
 }
 
 .panel-heading .accordion-toggle.collapsed:after {
-    /* symbol for "collapsed" panels */
-    content: "\e080";
-    /* adjust as needed, taken from bootstrap.css */
+  /* symbol for "collapsed" panels */
+  content: '\e080';
+  /* adjust as needed, taken from bootstrap.css */
 }
 
 .jobTitle {
-    color: orange;
+  color: orange;
 }
 
 .jobDate {
-    color: rgb(12, 208, 106);
+  color: rgb(12, 208, 106);
 }
 
 .jobDesc {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 /* Footer */
 
 #myFooter {
-    background-color: #013243;
-    color: white;
+  background-color: #013243;
+  color: white;
 }
 
 #myFooter .footer-copyright {
-    background-color: #013243;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    text-align: center;
+  background-color: #013243;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
 }
 
 #myFooter .footer-copyright p {
-    margin: 10px;
-    color: #ccc;
+  margin: 10px;
+  color: #ccc;
 }
 
 #myFooter ul {
-    list-style-type: none;
-    padding-left: 0;
-    line-height: 1.7;
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
 }
 
 #myFooter h5 {
-    font-size: 18px;
-    color: white;
-    font-weight: bold;
-    margin-top: 30px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
 }
 
 #myFooter a {
-    color: #d2d1d1;
-    text-decoration: none;
+  color: #d2d1d1;
+  text-decoration: none;
 }
 
 #myFooter a:hover,
 #myFooter a:focus {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 #myFooter .myCols {
-    text-align: center;
+  text-align: center;
 }
 
 #myFooter .social-networks {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 38px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 38px;
 }
 
 #myFooter .social-networks a {
-    font-size: 32px;
-    margin-right: 5px;
-    margin-left: 5px;
-    color: #f9f9f9;
-    padding: 10px;
-    transition: 0.2s;
+  font-size: 34px;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #f9f9f9;
+  padding: 10px;
+  transition: 0.2s;
 }
 
 #myFooter .social-networks a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #myFooter .facebook:hover {
-    color: #0077e2;
+  color: #0077e2;
 }
 
 #myFooter .google:hover {
-    color: #ef1a1a;
+  color: #ef1a1a;
 }
 
 #myFooter .twitter:hover {
-    color: #00aced;
+  color: #00aced;
 }
 
 @media screen and (max-width: 767px) {
-    #myFooter {
-        text-align: center;
-    }
+  #myFooter {
+    text-align: center;
+  }
 }
 
 .content {
-    flex: 1 0 auto;
-    -webkit-flex: 1 0 auto;
-    min-height: 200px;
+  flex: 1 0 auto;
+  -webkit-flex: 1 0 auto;
+  min-height: 200px;
 }
 
 #myFooter {
-    flex: 0 0 auto;
-    -webkit-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
 }
